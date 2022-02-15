@@ -24,4 +24,10 @@ The Sensor.Communtiy integration will query the open data API of [Sensor.Communi
 To get the ID of a particle, pressure, noise, temperature, or humidity sensor by selecting it on the [Sensor.Community map](https://maps.sensor.community/).
 After selecting the sensor, it will show the needed ID in the sidebar with a `#` in front of it.
 
+## Sensor Owners:
+If it is your own sensor, note that the # ID shown in your account will probably only show some of the entities. In this case, try the other IDs you find in the *Data* settings of your sensor.
+
+On https://devices.sensor.community/ log in to your account and choose *My sensors* to see all your (ESP8266) devices with sensors. (This Motherboard related ID will show some entities like temperature and humidity but some entities might be missing)
+If you choose the *Data* button on the selection, you will see other IDs called *Sensor ID*  that you can also connect to entities in Home Assistant with this integration. (Add them like described above)
+
 {% include integrations/config_flow.md %}
